@@ -1,0 +1,9 @@
+stages:
+  - echo
+
+test:
+  stage: echo
+  script:
+    - echo $GITLAB_USER_LOGIN
+    - echo $CI_USER
+    - echo $CI_NAME
